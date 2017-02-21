@@ -1,4 +1,4 @@
-FROM opennms/openjdk:latest
+FROM opennms/openjdk:8u121-jdk
 
 MAINTAINER ronny@opennms.org
 
