@@ -1,8 +1,8 @@
-FROM opennms/openjdk:latest
+FROM opennms/openjdk:8u131-jdk
 
 MAINTAINER ronny@opennms.org
 
-ARG MAVEN_VERSION=3.3.9
+ARG MAVEN_VERSION=3.5.0
 ENV MAVEN_URL http://ftp.halifax.rwth-aachen.de
 ENV MAVEN_PKG ${MAVEN_URL}/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz
 ENV MAVEN_HOME /opt/apache-maven-${MAVEN_VERSION}
