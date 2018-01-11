@@ -2,7 +2,7 @@ FROM opennms/openjdk:8u151-jdk
 
 LABEL maintainer "Ronny Trommer <ronny@opennms.org>"
 
-ARG MAVEN_VERSION=3.5.0
+ARG MAVEN_VERSION=3.5.2
 ENV MAVEN_URL http://ftp.fau.de
 
 ENV MAVEN_PKG ${MAVEN_URL}/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz
