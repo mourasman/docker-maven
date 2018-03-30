@@ -17,4 +17,4 @@ LABEL license="Apache License, Version 2.0" \
 WORKDIR /opt
 
 RUN curl ${MAVEN_PKG} | tar xz
-RUN yum install rpmbuild -y
+RUN yum install rpm-build -y
